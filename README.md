@@ -6,4 +6,4 @@ I am hoping to learn how javascript is used and practice using the basics of jav
 
 ## About the Author
 
-**email:** julie@tailwindapp.com
+**email:** julie (at) tailwindapp.com
