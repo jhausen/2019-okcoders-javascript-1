@@ -10,11 +10,16 @@
 
 <body>
 
-  <!-- Everything between the script tags must be Javascript -->
+  <!-- Everything between the script tags must be Javascript (html goes in a string)  -->
   <script>
-    document.writeln("<h1>Julie Hausen</h1>");
-    document.writeln("<div>Age: " + (29 / 3) + "</div");
-    document.writeln("<div>Day: " + (15 * 127) + "</div");
+    var name = prompt("Users name?");
+    var age = prompt("Users age: ");
+    var day = prompt("Users day of birth?");
+
+    document.writeln("<h1>" + name + "</h1>");
+    document.writeln("<div>Age Divided by Three: " + (29 / 3) + "</div");
+    document.writeln("<div>Day of Birth Multiplied by 127: " + (15 * 127) + "</div");
+    document.writeln("Age x Day: " + (age * day));
   </script>
 
 </body>
