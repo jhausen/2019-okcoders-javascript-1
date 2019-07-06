@@ -12,13 +12,17 @@
 
   <!-- Everything between the script tags must be Javascript (html goes in a string)  -->
   <script>
-    var name = prompt("Users name?");
-    var age = prompt("Users age?");
+    var number = 99;
+    //console.log(typeof(number));
+  
 
-    if (age > 55) {
-      document.write("User is old");
-    } else {
-      document.write("User is young");
+    while(number > 0) {
+      //console.log("Got this far");
+      number--;
+      document.write(number + " bottles of beer on the wall, " );
+      document.write(number + " bottles of beer. Take one down and pass it around, ");
+      document.write(number + " bottles of beer on the wall. <br>");
+      //number = (number);
     }
 
   </script>
